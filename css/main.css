@@ -1,0 +1,369 @@
+
+
+@font-face {
+  font-family: DrukTextWide;
+  src: url("../fonts/DrukTextWide-Heavy.otf");
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Regular.ttf");
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #252525;
+    overflow-x:: hidden;
+}
+
+html,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: "Rubik";
+}
+
+h1,
+h2,
+.navbar-nav a{
+  font-family: DrukTextWide;
+}
+
+
+.titoli{
+    margin:1.5em 0 0 0;
+    font-size: 3.5em;
+    color: white;
+}
+
+.sottotitoli1{
+    padding-top: 3em;
+    font-size: 2em;
+    color: white;
+}
+
+.sottotitoli2{
+    padding-top: 8em;
+    font-size: 2em;
+    color: white;
+}
+
+.testo  {
+    padding-top: 4em;
+    color: white;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.testoConSot  {
+    padding-top: 0.5em;
+    color: white;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+
+
+  .imgSx.margineSx{
+    margin:  5% 0 0 50% !important;
+  }
+
+  .imgDx.margineDx{
+    margin:  5% 50% 0 0 !important;
+  }
+
+
+
+
+
+.navbar {
+    background:  #ff6357;
+    transition: 0.5s;
+
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    font-family: DrukTextWide;
+}
+
+
+.navbar-brand:hover{
+  color: #252525;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #252525;
+
+}
+.navbar-toggler-icon {
+    background-image: url('../images/menu-01.png') !important;
+    background-size: contain !important;
+    background-repeat:no-repeat !important;
+    background-position: center !important;
+    cursor: pointer;}
+
+
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+
+.header {
+    position: relative;
+}
+
+#naming{
+    font-size: 500%;
+    color: white;
+    width: 50%;
+}
+
+#tagline{
+  font-family: DrukTextWide;
+  font-size: 186%;
+  color: white;
+
+
+}
+
+
+
+
+.overlay {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background-image: url('../images/prova.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.description {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    margin: 4em 0 0 0;
+
+
+
+    }
+.description.animate{
+  opacity: 0%;
+  animation-name: slideUp;
+ animation-duration: 1s;
+ animation-delay: 0.5s;
+ animation-fill-mode: forwards;
+ animation-direction: alternate;
+ }
+
+
+@keyframes slideUp {
+  from {opacity: 0%; top: 40%}
+  to {opacity: 100%; top: 35%}
+}
+
+
+
+
+#desCouch{
+    width: 50%;
+}
+
+
+.classMission h1{
+  font-size: 3.5em;
+  color: white;
+}
+
+.classMission {
+   margin: 0 0 10em 0;
+
+    position: relative;
+
+}
+
+#missionText{
+  position: absolute;
+  opacity: 0%;
+  padding-top: 1em;
+  margin: 10em 0 0 0;
+
+}
+
+
+#missionText.animateUp{
+  opacity: 0%;
+  animation-name: slideUp1;
+ animation-duration: 0.8s;
+ animation-delay: 0.2s;
+ animation-fill-mode: forwards;
+
+}
+
+#missionText.animateDown{
+  opacity: 100%;
+  animation-name: slideDown1;
+ animation-duration: 0.8s;
+ animation-delay: 0.2s;
+ animation-fill-mode: forwards;
+}
+
+@keyframes slideUp1 {
+  from {opacity: 0%; top: 20%}
+  to {opacity: 100%; top: 15%}
+}
+@keyframes slideDown1 {
+  from {opacity: 100%; top: 15%}
+  to {opacity: 0%; top: 20%}
+}
+
+.posDx{
+  left:15%;
+
+}
+
+#missionText p{
+  width: 50%;
+}
+
+
+
+
+
+
+/*classSubGroup*/
+
+
+#outside{
+
+  position: relative;
+    height: 100px;
+
+}
+
+#outsideCircle{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+#circle {
+  position:absolute;
+  top: 0px; left: 0px;
+  background-color: #252525;
+  height: 900px;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+  transform: translate(-22%,0);
+
+}
+
+
+.classSubGroup {
+
+    position: relative;
+    background-color: #252525
+}
+
+.classSubGroup h1{
+  margin: 2em 0 0 0;
+  padding-top: 1.5em;
+}
+
+
+
+.aboutUs{
+    margin: 8em 0 0 0;
+    position: relative;
+    background-color: #252525
+}
+
+.aboutUs p{
+  padding-top: 5%;
+  font-size:100%;
+  font-family: DrukTextWide;
+}
+
+
+
+.classAudio {
+
+    position: relative;
+    background-color: #252525;
+    padding-top: 6em;
+}
+
+.classAudio h1 {
+  padding-top: 2em;
+
+
+}
+
+
+.classSharing {
+    padding-top: 6em;
+    position: relative;
+    background-color: #252525
+
+}
+
+.classSharing h1 {
+   padding-top: 2em;
+    }
+
+.classSmartAudio {
+    padding-top: 6em;
+    padding-Bottom: 6em;
+    position: relative;
+    background-color: #252525
+
+  }
+
+.classSmartAudio h1 {
+   padding-top: 2em;
+  }
+
+  .ytVideo{
+    position:relative;
+    background-color: #252525;
+    padding-top: 5em;
+  padding-bottom: 8em;
+  }
+
+
+.download{
+  position:relative;
+  background-color: #252525;
+padding-bottom: 8em;
+}
+
+.download h1{
+
+padding-top: 1.5em;
+}
+
+.aboutUs h1{
+  margin: 3% 0 0 0;
+}
